@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class amazontestcase {
+public class amazontestcase2 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -26,7 +26,7 @@ public class amazontestcase {
        
 
          WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
-           searchBox.sendKeys("iphone");
+           searchBox.sendKeys("mobiles");
   //searchBox.submit();
 
         /*
@@ -34,9 +34,9 @@ public class amazontestcase {
          * the result as "Passed" or "Failed"
          */
         if (actualTitle == expectedTitle){
-            System.out.println("Test case Passed!");
+            System.out.println("Tes tcase Passed!");
         } else {
-            System.out.println("Test Failed");
+            System.out.println("Test case Failed");
         }
        
         //close Fire fox
