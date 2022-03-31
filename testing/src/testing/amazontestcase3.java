@@ -34,9 +34,9 @@ public class amazontestcase2 {
          * the result as "Passed" or "Failed"
          */
         if (actualTitle == expectedTitle){
-            System.out.println("Test case Passed!");
+            System.out.println("Tes tcase Passed!");
         } else {
-            System.out.println("Test Failed");
+            System.out.println("Test case Failed");
         }
        
         //close Fire fox
