@@ -33,7 +33,7 @@ public class amazontestcase {
          * compare the actual title of the page with the expected one and print
          * the result as "Passed" or "Failed"
          */
-        if (actualTitle = expectedTitle){
+        if (actualTitle === expectedTitle){
             System.out.println("Test case Passed!");
         } else {
             System.out.println("Test case Failed");
