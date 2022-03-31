@@ -26,7 +26,7 @@ public class amazontestcase {
        
 
          WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
-           searchBox.sendKeys("phone");
+           searchBox.sendKeys("mobile");
   //searchBox.submit();
 
         /*
